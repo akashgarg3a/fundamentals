@@ -46,5 +46,14 @@ public class Release {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    @Override
+    public String toString() {
+        return "Release{" +
+                "id=" + id +
+                ", releaseDate='" + releaseDate + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
 }
 

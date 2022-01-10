@@ -25,4 +25,15 @@ public class Ticket {
     public Release getRelease() {
         return release;
     }
+
+    @Override
+    public String toString() {
+        return "Ticket{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", application=" + application +
+                ", release=" + release +
+                '}';
+    }
 }
